@@ -39,7 +39,6 @@ module.exports = function zeros(expression) {
 	  }
 
 	  if (arrTwoFact[0] % 2 !== 0 && counterEven == 0) {
-		//OddTens = Math.floor(arrTwoFact[0] / 5);
 		let multiplier1 = 1;
 		while (5*multiplier1 < arrTwoFact[0]) {
 			OddTens++;
@@ -48,8 +47,6 @@ module.exports = function zeros(expression) {
 	  }
 
 	  if (arrTwoFact[0] % 2 !== 0 && counterEven !== 0) {
-	//	let countFiveOdd = Math.floor(arrTwoFact[0] / 5);
-	//	allZeros2 += countFiveOdd;
 		let multiplier2 = 1;
 		while (5*multiplier2 < arrTwoFact[0]) {
 			allZeros2++;
